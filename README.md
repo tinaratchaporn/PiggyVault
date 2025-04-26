@@ -1,68 +1,77 @@
-PiggyVault 🐷💰
-PiggyVault คือแอปพลิเคชันกระปุกออมสินดิจิทัลบนระบบ Blockchain ที่ให้ผู้ใช้สามารถทำการฝาก ถอน และดูยอดเงินคงเหลือได้อย่างโปร่งใส ปลอดภัย และตรวจสอบได้ ผ่านเครือข่าย Holesky โดยเชื่อมต่อผ่าน MetaMask Wallet
+# 🐷 PiggyVault 🏦
 
-Table of Contents 📑
-คุณสมบัติ ✨
+**PiggyVault** คือแอปพลิเคชันกระปุกออมสินดิจิทัลที่ใช้ Blockchain ในการฝาก ถอน และดูยอดเงินคงเหลืออย่างโปร่งใสและปลอดภัย โดยใช้ **MetaMask** เชื่อมต่อกับระบบ **Holesky Blockchain**.
 
-เทคโนโลยีที่ใช้ 🛠
+---
 
-ขั้นตอนการใช้งาน 🚀
+## 📑 Table of Contents
 
-ตัวอย่างหน้าจอ 📷
+- [คุณสมบัติ ✨](#คุณสมบัติ-)
+- [เทคโนโลยีที่ใช้ 🛠](#เทคโนโลยีที่ใช้-)
+- [ขั้นตอนการใช้งาน 🚀](#ขั้นตอนการใช้งาน-)
+- [ตัวอย่างหน้าจอ 📷](#ตัวอย่างหน้าจอ-)
+- [Smart Contract 📄](#smart-contract-)
+- [ลิงก์ที่เกี่ยวข้อง 🔗](#ลิงก์ที่เกี่ยวข้อง-)
+- [ลิขสิทธิ์ ©](#ลิขสิทธิ์-)
 
-Smart Contract 📄
+---
 
-ลิงก์ที่เกี่ยวข้อง 🔗
+## ✨ คุณสมบัติ
 
-ลิขสิทธิ์ ©
+- **ฝากเงิน** เข้า PiggyVault ผ่าน Smart Contract
+- **ถอนเงิน** ที่ฝากไว้ได้ทุกเมื่อ
+- **แสดงยอดเงินคงเหลือ** ในกระเป๋าแบบ Real-time
+- ใช้งานง่ายผ่าน **MetaMask** wallet
+- **โปร่งใสและปลอดภัย** ใช้เครือข่าย Holesky
 
-คุณสมบัติ ✨
-ฝากเงิน เข้า PiggyVault ผ่าน Smart Contract
+---
 
-ถอนเงิน ที่ฝากไว้ได้ทุกเมื่อ
+## 🛠 เทคโนโลยีที่ใช้
 
-แสดงยอดเงินคงเหลือ ในกระเป๋าแบบ Real-time
+- **Solidity**: ใช้ในการเขียน Smart Contract
+- **Remix IDE**: สำหรับพัฒนาและ Deploy Smart Contract
+- **Ethers.js**: ใช้สำหรับเชื่อมต่อ Frontend กับ Blockchain
+- **HTML/CSS/JavaScript**: สำหรับสร้างหน้าเว็บ
+- **GitHub Pages**: สำหรับเผยแพร่เว็บไซต์
 
-ใช้งานง่ายผ่าน MetaMask wallet
+---
 
-โปร่งใสและปลอดภัย ใช้เครือข่าย Holesky
+## 🚀 ขั้นตอนการใช้งาน
 
-เทคโนโลยีที่ใช้ 🛠
-Solidity: สำหรับเขียน Smart Contract
+1. **เชื่อมต่อ MetaMask** โดยคลิกที่ปุ่ม "Connect Wallet"
+2. **ฝากเงิน** โดยกรอกจำนวนเงินที่ต้องการฝากแล้วคลิก "Deposit"
+3. **ถอนเงิน** โดยคลิกที่ปุ่ม "Withdraw"
+4. **ตรวจสอบยอดเงินคงเหลือ** ใน PiggyVault ได้ทันทีที่หน้าเว็บ
 
-Remix IDE: สำหรับพัฒนาและ Deploy Contract
+---
 
-Ethers.js: สำหรับเชื่อมต่อ Frontend กับ Blockchain
+## 📷 ตัวอย่างหน้าจอ
 
-HTML/CSS/JavaScript: สำหรับสร้างหน้าเว็บ
+### หน้าหลัก PiggyVault
+![หน้าหลัก PiggyVault](https://raw.githubusercontent.com/tinaratchaporn/PiggyVault/main/screenshots/main-page.png)
 
-GitHub Pages: สำหรับเผยแพร่เว็บไซต์
+### กระบวนการฝากเงิน
+![ฝากเงิน](https://raw.githubusercontent.com/tinaratchaporn/PiggyVault/main/screenshots/deposit.png)
 
-ขั้นตอนการใช้งาน 🚀
-เชื่อมต่อกระเป๋า MetaMask โดยคลิกที่ปุ่ม "Connect Wallet"
+### กระบวนการถอนเงิน
+![ถอนเงิน](https://raw.githubusercontent.com/tinaratchaporn/PiggyVault/main/screenshots/withdraw.png)
 
-กรอกจำนวนเงิน ที่ต้องการฝากแล้วกดปุ่ม "ฝากเงิน"
+---
 
-ถอนเงิน ที่ฝากไว้โดยคลิกที่ปุ่ม "ถอนเงิน"
+## 📄 Smart Contract
 
-ตรวจสอบยอดเงินคงเหลือ ใน PiggyVault แบบทันทีในหน้าเว็บ
+- **Address**: `0x0e20d9e799ddcaa191cd04abffdcec068d5f3a6f`
+- **Verified** บน [Holesky Etherscan](https://holesky.etherscan.io/address/0x0e20d9e799ddcaa191cd04abffdcec068d5f3a6f#code)
 
-ตัวอย่างหน้าจอ 📷
-หน้าหลัก PiggyVault
+---
 
-กระบวนการฝากเงิน
+## 🔗 ลิงก์ที่เกี่ยวข้อง
 
-กระบวนการถอนเงิน
+- [เว็บไซต์ PiggyVault (GitHub Pages)](https://tinaratchaporn.github.io/PiggyVault/)
+- [Source Code บน GitHub](https://github.com/tinaratchaporn/PiggyVault)
 
-Smart Contract 📄
-Address: 0x0e20d9e799ddcaa191cd04abffdcec068d5f3a6f
+---
 
-Verified บน Holesky Etherscan
+## © ลิขสิทธิ์
 
-ลิงก์ที่เกี่ยวข้อง 🔗
-เว็บไซต์ PiggyVault (GitHub Pages)
-
-Source Code บน GitHub
-
-ลิขสิทธิ์ ©
 © 2025 PiggyVault. All rights reserved.
