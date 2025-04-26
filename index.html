@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Piggy Vault</title>
+  <!-- ใช้ CDN ใหม่จาก unpkg และโหลดก่อน script.js -->
+  <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="left-menu">
+      <div class="logo">🐷 Piggy Vault</div>
+    </div>
+    <div class="right-menu">
+      <span id="walletAddress" class="wallet-address">Not connected</span>
+      <!-- ปุ่ม Team -->
+      <button class="team-btn" id="teamBtn"> Team</button>
+      <button id="connectButton" class="connect-btn">Connect Wallet</button>
+    </div>
+  </nav>
+
+  <!-- Modal -->
+  <div id="teamModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal()">&times;</span>
+      <h2>Meet the Team!</h2>
+      <div class="team-members">
+        <div class="member">
+          <img src="./pictures/ติน.jpg">
+          <h3>65057974</h3>
+          <p>อรัชพร นาคมอญ</p>
+          <p>Developer</p>
+        </div>
+        <div class="member">
+          <img src="./pictures/อิ้ง.jpg">
+          <h3>65075821</h3>
+          <p>อภิวัฒน์ คุณทรัพย์</p>
+          <p>Developer</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main class="main-content">
+    <div class="container">
+      <h1 class="page-title">Manage Your Vault</h1>
+      <div class="image-container">
+        <img src="./pictures/pngegg.png" alt="Piggy Vault">
+      </div>
+      <div id="walletBalance" class="wallet-balance-bottom">- ETH</div>
+      <p class="subtitle">Secure your ETH safely.</p>
+      <input type="number" id="amountInput" placeholder="Amount (ETH)" min="0.1" step="0.1">
+      <div class="button-group">
+        <button id="depositButton">Deposit</button>
+        <button id="withdrawButton">Withdraw</button>
+      </div>
+      <div id="result" class="result"></div>
+    </div>
+  </main>
+
+  <div id="loader" class="loader-overlay">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- โหลด script.js หลังจาก ethers.js -->
+  <script type="module" src="script.js"></script>
+</body>
+
+</html>
