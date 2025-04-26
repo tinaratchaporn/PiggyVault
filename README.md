@@ -48,7 +48,8 @@
 ## 📷 ตัวอย่างหน้าจอ
 
 ### หน้าหลัก PiggyVault
-![หน้าหลัก PiggyVault](https://raw.githubusercontent.com/tinaratchaporn/PiggyVault/main/screenshots/main-page.png)
+![หน้าหลัก PiggyVault]![Screenshot 2025-04-26 232029](https://github.com/user-attachments/assets/45d9d08d-45d6-48e1-8675-e95567f20fb2)
+
 
 ### กระบวนการฝากเงิน
 ![ฝากเงิน](https://raw.githubusercontent.com/tinaratchaporn/PiggyVault/main/screenshots/deposit.png)
