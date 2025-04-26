@@ -52,10 +52,12 @@
 
 
 ### กระบวนการฝากเงิน
-![ฝากเงิน](https://raw.githubusercontent.com/tinaratchaporn/PiggyVault/main/screenshots/deposit.png)
+![ฝากเงิน]![Screenshot 2025-04-26 232105](https://github.com/user-attachments/assets/edcb8624-0c70-44cc-87af-bb12791091c0)
+
 
 ### กระบวนการถอนเงิน
-![ถอนเงิน](https://raw.githubusercontent.com/tinaratchaporn/PiggyVault/main/screenshots/withdraw.png)
+![ถอนเงิน]![Screenshot 2025-04-26 232150](https://github.com/user-attachments/assets/3d5a0b93-a0ff-48a3-9bc0-5340215ba2bf)
+
 
 ---
 
